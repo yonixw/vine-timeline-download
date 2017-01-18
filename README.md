@@ -12,3 +12,6 @@ Start and download all files!
 * from likes : XXXX/likes
 
 (Vine decided to close on 17.01.17 so this is a day late solution. Sorry for being late.)
+
+
+[Project took 2h fomr 22:00 to 24:00 on 19.01.17]
