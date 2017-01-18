@@ -162,7 +162,6 @@ namespace VineDownlaodJSONParser
         {
             public long count; // TOTAL vines in timeline
             public string anchorStr; // anchor for next call
-            public long nextPage; // next page index
             public long size; // how much vines we got
             public VineJSON_data_record[] records;
         }
