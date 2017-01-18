@@ -6,6 +6,8 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
+using Config = VineDownlaodJSONParser.Properties.Settings;
+
 
 namespace VineDownlaodJSONParser
 {
@@ -46,7 +48,7 @@ namespace VineDownlaodJSONParser
 
         public void Start()
         {
-            mainClient.Headers.Add("Referer", "https://vine.co/u/1135413680662843392");
+            mainClient.Headers.Add("Referer", "https://vine.co/u/" + Config.Default.timelineUserID + "");
             mainClient.Headers.Add("Host", "vine.co");
             mainClient.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36");
             mainClient.Headers.Add("X-Requested-With", "XMLHttpRequest");
@@ -66,7 +68,7 @@ namespace VineDownlaodJSONParser
             try
             {
                 mainClient.DownloadFile(
-                        "https://vine.co/api/timelines/users/1135413680662843392",
+                        "https://vine.co/api/timelines/users/" + Config.Default.timelineUserID + "",
                         Path.Combine(pageSavePath, "pageinfo.json.txt")
 
                     );
@@ -127,7 +129,7 @@ namespace VineDownlaodJSONParser
                 try
                 {
                     mainClient.DownloadFile(
-                                "https://vine.co/api/timelines/users/1135413680662843392?page=" + currentPage + "&anchor=" + currentAnchor + "&size=10",
+                                "https://vine.co/api/timelines/users/" + Config.Default.timelineUserID + "?page=" + currentPage + "&anchor=" + currentAnchor + "&size=10",
                                 Path.Combine(pageSavePath, "pageinfo.json.txt")
 
                             );

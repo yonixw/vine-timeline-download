@@ -11,5 +11,8 @@
     <Setting Name="errorPath" Type="System.String" Scope="Application">
       <Value Profile="(Default)">C:\Users\YoniWas\Desktop\SEM13\allVinesBackup\errors.txt</Value>
     </Setting>
+    <Setting Name="timelineUserID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">11354136806628433XX</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

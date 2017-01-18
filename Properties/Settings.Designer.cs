@@ -49,5 +49,14 @@ namespace VineDownlaodJSONParser.Properties {
                 return ((string)(this["errorPath"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("11354136806628433XX")]
+        public string timelineUserID {
+            get {
+                return ((string)(this["timelineUserID"]));
+            }
+        }
     }
 }
