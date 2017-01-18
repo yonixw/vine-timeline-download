@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VineDownlaodJSONParser.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="sessionID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1135413680662843392-acd0825a-f894-41b9-99b9-XXXXXXXX</Value>
+    </Setting>
+    <Setting Name="savePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\YoniWas\Desktop\SEM13\allVinesBackup</Value>
+    </Setting>
+    <Setting Name="errorPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\YoniWas\Desktop\SEM13\allVinesBackup\errors.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
